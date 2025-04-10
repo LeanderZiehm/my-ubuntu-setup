@@ -9,8 +9,7 @@ l for ls -l
 # Setup 
 
 ```
-chmod +x install.sh
-./install.sh
+bash install.sh
 ```
 
 
@@ -19,8 +18,7 @@ chmod +x install.sh
 # Unistall
 
 ```
-chmod +x uninstall.sh
-./uninstall.sh
+bash uninstall.sh
 ```
 
 
