@@ -44,8 +44,18 @@ sudo rm /usr/local/bin/yt
 #
 
 nano ~/bin/g
+
 #!/bin/bash
 git add . && git commit -m "+" && git push
+
 chmod +x ~/bin/g
 export PATH="$HOME/bin:$PATH"
-source ~/.bashrc  # or source ~/.zshrc
+source ~/.bashrc 
+
+
+
+# KDE Send Files over local Network.
+
+kdeconnect-cli --list-devices
+
+kdeconnect-cli --device a1b2c3d4e5f6g7h8 --send /path/to/your/file.txt
